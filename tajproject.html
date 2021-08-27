@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>mission taj</title>
+<link rel="stylesheet" href="tajpro.css">
+<script>
+    function openNav() {
+  document.getElementById("slide").style.width = "200px";
+  document.getElementById("lis").style.visibility = "hidden";
+  document.getElementById("close").style.visibility = "visible";
+}
+
+function closeNav() {
+  document.getElementById("slide").style.width = "0";
+  
+  
+  document.getElementById("lis").style.visibility = "visible";
+  document.getElementById("close").style.visibility = "hidden";
+}
+function openform() {
+  document.getElementById("form").style.visibility = "visible";
+}
+function closeform() {
+  document.getElementById("form").style.visibility = "hidden";
+}
+
+</script>
+</head>
+<body>
+    <header id="header">
+        <div i>
+        <div id="slide">
+            
+            <ul id="slidemenu">
+                
+                <li><a href="">ABOUS US</a></li>
+                <li><a href="">TAJNESS</a></li>
+                <li><a href="">TAJ GIFT CARD</a></li>
+                <li><a href="">JIVA  SPA</a></li>
+                <li><a href="">RESTUARENTS</a></li>
+                <li><a href="">CONTACT US</a></li>
+            </ul>
+        </div>
+<nav id="headr">
+<ul id="menu">
+<li id="list"><a href="#">HOME</a></li>
+<li id="list"><a href="#">OUR PROPERTIES</a></li>
+<li id="list"><a href="#">PROPERTIES<a></li>
+<li id="list"><a href="#">DESTINATION</a></li>
+<li id="list"><a href="#">TAJ INNERCIRCLE</a></li>
+</ul>
+<div id="form-box">
+<button id="drp" onclick="openform()" ondblclick="closeform()">BOOK MY STAY  &nbsp;<span id="sign"></span></button>
+<div id="form">
+    HOTEL OR DESTINATION<BR>
+        <input type="text" placeholder="HOTEL OR DESTINATION" style="width: 25em; margin: 10px 0px; height: 2em;border-color: rgba(22, 21, 20, 0.801);">
+        <br>
+        <span style="float: left;">CHECK IN DATE <br> <input type="date" style="width: 130px; height: 30px;border-color: rgba(12, 11, 11, 0.801);"></span>    <span style="float: right;">CHECK OUT DATE <br> <input type="date" style="width: 130px; height: 30px;border-color: rgba(88, 40, 5, 0.801);"></span>
+        <br>
+        <span style="float: left; margin: 15px 35px 15px 0px;border-color: rgba(88, 40, 5, 0.801);">
+            Room<br>
+            <select style="width: 80px; height: 30px;">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option><option>4</option>
+            </select>
+        </span>
+        <span style="float: left; margin: 15px 40px 15px 0px;border-color: rgba(88, 40, 5, 0.801);">
+            Adults<br>
+            <select style="width: 80px;height: 30px;">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option><option>4</option>
+            </select>
+        </span>
+        <span style="float: right; margin: 15px 0px 0px 0px;border-color: rgba(88, 40, 5, 0.801);">
+            Child<br>
+            <select style="width: 80px; height: 30px; border-color: rgba(88, 40, 5, 0.801);">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option><option>4</option>
+            </select>
+        </span><BR>
+       <center> <button style="height: 45px; width: 250px;background-color: rgba(116, 54, 9, 0.74); font-weight: bolder;">CHECK AVAIBLITY</button></center>
+    </div>
+</div>
+<span class="listt">
+<ul class="drop"><li class="op"><a>English &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="sign" style="color: #000;"> </a></li>
+<ul class="opt">
+<li class="optA"><a class="linA" href="">Douch</a></li>
+<li class="optA"><a class="linA" href="">French</a></li>
+<li class="optA"><a class="linA" href="">Germany</a></li>
+<li class="optA"><a class="linA" href="">Hindi</a></li>
+</ul>
+</ul>
+</span> 
+
+<button id="lis" onclick="openNav()">
+<span class="drf"></span>
+<span class="drf">
+</span><span class="drf">
+</span>
+</button>
+<span id="close" onclick="closeNav()">&times;</span>
+</nav>
+</div>
+</header>
+
+
+
+
+
+ 
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
