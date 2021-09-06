@@ -24,9 +24,11 @@ router.delete("/details/:id",(req,res)=>{
 });
 router.post("/login",(req,res)=>{
     const valu=req.body
+    
     db.query("INSERT INTO student set ?",valu,(err,rows)=>{
         if(!err){
             res.send("inserted");
+            console.log(valu);
         }
         else
         console.log(err);
@@ -34,4 +36,4 @@ router.post("/login",(req,res)=>{
 });
 
 
-module.exports=router
+module.exports=router 
